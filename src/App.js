@@ -7,6 +7,7 @@ import Massage from "./pages/Massage";
 import Team from "./pages/Team";
 import Support from "./pages/Support";
 import Reports from "./pages/Reports";
+import Login from "./pages/Login";
 import "./App.css";
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
             <Route path="/support" component={Support} />
             <Route path="/massage" component={Massage} />
             <Route path="/reports" component={Reports} />
+            <Route path="/login" component={Login} />
           </Switch>
         </Router>
       </main>

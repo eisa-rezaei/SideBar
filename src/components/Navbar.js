@@ -18,6 +18,9 @@ function NavBar() {
             <Link to="#">
               <FaIcons.FaBars onClick={toggleHandler} />
             </Link>
+            <Link to="/login">
+              <h3>login</h3>
+            </Link>
           </div>
         </nav>
         <div className={toggleSideBar ? `menu-items` : `menu-items active`}>
