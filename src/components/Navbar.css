@@ -12,24 +12,38 @@
 }
 .navbar {
   width: 100%;
-  height: 2rem;
-  padding: 1rem;
-  align-items: center;
-  justify-content: left;
+  height: 3.5rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   background-color: #222;
   position: fixed;
   top: 0;
   left: 0;
-  max-width: 1500px;
+  padding: 0.5rem;
+}
+.navbar a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  color: #1a83ff;
+}
+.navbar a:hover {
+  color: #be38a8;
 }
 .navbar svg {
   font-size: large;
 }
 .navbar-menu {
   width: 100%;
-  height: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
 }
 .menu-items {
   width: 35%;
@@ -79,6 +93,7 @@
 }
 .menu-items svg {
   padding: 8px;
+  font-size: 2.5rem;
 }
 .menu-items svg:hover {
   color: blue;
