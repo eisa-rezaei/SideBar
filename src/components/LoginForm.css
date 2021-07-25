@@ -12,6 +12,7 @@
   line-height: 1.2;
   letter-spacing: 1px;
   text-transform: capitalize;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 .form-control {
   margin-bottom: 2rem;
