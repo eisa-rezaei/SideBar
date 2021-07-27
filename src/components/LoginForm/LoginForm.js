@@ -34,9 +34,7 @@ const LoginForm = () => {
             id="name"
             name="name"
             placeholder="Name"
-            onChange={formik.handleChange}
-            value={formik.values.name}
-            onBlur={formik.handleBlur}
+            {...formik.getFieldProps("name")}
           />
           {formik.errors.name ? <p>{formik.errors.name}</p> : null}
         </div>
@@ -47,9 +45,7 @@ const LoginForm = () => {
             id="email"
             name="email"
             placeholder="Email"
-            onChange={formik.handleChange}
-            value={formik.values.email}
-            onBlur={formik.handleBlur}
+            {...formik.getFieldProps("email")}
           />
           {formik.touched.email && formik.errors.email ? (
             <p>{formik.errors.email}</p>
@@ -62,9 +58,10 @@ const LoginForm = () => {
             id="password"
             name="password"
             placeholder="Password"
-            onChange={formik.handleChange}
-            value={formik.values.password}
-            onBlur={formik.handleBlur}
+            {...formik.getFieldProps("password")}
+            // onChange={formik.handleChange}
+            // value={formik.values.password}
+            // onBlur={formik.handleBlur}
           />
           {formik.touched.password && formik.errors.password ? (
             <p>{formik.errors.password}</p>

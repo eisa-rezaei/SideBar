@@ -1,0 +1,101 @@
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80% !important;
+    margin: 4rem;
+    font-size: smaller !important;
+  }
+  .comment-form {
+    padding: 1rem !important;
+  }
+  .tg-btn {
+    font-size: small;
+  }
+}
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.comment-form {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.comment-form-control {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+.comment-form-control p {
+  font-size: 0.8rem;
+  color: red;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.comment-form-control input {
+  min-width: 60%;
+  margin-top: 5px;
+  padding: 0.5rem;
+  color: #fff;
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  height: 2rem;
+  color: #222;
+  outline: none;
+}
+
+#comment {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.1rem;
+  word-break: break-all;
+}
+.comment-form-toggle-head {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+  margin: 5px auto;
+}
+.comment-form-toggle-head h3 {
+  text-align: left;
+}
+
+.tg-btn {
+  width: 100%;
+  margin: 5px auto;
+  border-radius: 10px;
+  background-color: red;
+  color: #fff;
+}
+.toggled {
+  background-color: green;
+}
+.comment-btn {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #263036;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.2s linear;
+  font-size: small;
+}
+.comment-btn:hover {
+  background-color: rgb(209, 207, 207);
+  color: #263036;
+  border: 1px solid #263036;
+}
