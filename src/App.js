@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Massage from "./pages/Massage";
@@ -8,6 +8,7 @@ import Team from "./pages/Team";
 import Support from "./pages/Support";
 import Reports from "./pages/Reports";
 import Login from "./pages/Login";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="/login" component={Login} />
           </Switch>
         </Router>
+        <Footer />
       </main>
     </>
   );
