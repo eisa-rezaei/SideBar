@@ -12,15 +12,20 @@ function NavBar() {
   };
   return (
     <>
-      <IconContext.Provider value={{ color: "red" }}>
+      <IconContext.Provider value={{ color: "seagreen" }}>
         <nav className="navbar">
           <div className="navbar-menu">
             <Link to="#">
               <FaIcons.FaBars onClick={toggleHandler} />
             </Link>
-            <Link to="/login">
-              <h3>login</h3>
-            </Link>
+            <div className="nav-links">
+              <Link to="/login">
+                <h3>login</h3>
+              </Link>
+              <Link to="/">
+                <h3>sign up </h3>
+              </Link>
+            </div>
           </div>
         </nav>
         <div className={toggleSideBar ? `menu-items` : `menu-items active`}>

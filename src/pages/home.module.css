@@ -1,0 +1,324 @@
+.container {
+  width: 100%;
+  min-height: 40rem;
+  height: auto;
+  margin-top: 1.5rem;
+}
+.teamimg {
+  width: 100%;
+  min-height: 40rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+      80.22deg,
+      rgba(40, 42, 53, 0.48) -6.74%,
+      hsla(0, 0%, 100%, 0) 127.41%
+    ),
+    url(../images/team-work.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+.title {
+  width: 20rem;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  color: #fff;
+}
+.title h3 {
+  width: 15rem;
+  font-size: 2rem !important;
+  font-weight: 100;
+}
+.title span {
+  width: 10rem;
+  font-size: 2rem !important;
+  margin: 20px 0;
+}
+.titlebox {
+  width: 20rem;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 2rem 2.5rem;
+  z-index: 10;
+}
+.titlebox h1 {
+  font-size: 1.5rem !important;
+}
+.titlebox ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 25px 0;
+}
+.titlebox li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.titlebox li p,
+.procard li p {
+  font-size: small;
+  margin-left: 10px;
+  color: #222;
+  align-items: center;
+}
+.titlebox li span,
+.procard li span {
+  width: 1.1rem;
+  height: 1.1rem;
+  align-items: center;
+  padding: 1px;
+  border-radius: 50%;
+  background-color: rgb(208, 224, 215);
+  color: rgb(15, 70, 39);
+}
+.titleboxbtn {
+  width: 100%;
+  height: 2.8rem;
+  margin-top: 10px;
+  background-color: rgb(59, 172, 108);
+  color: #fff;
+  border-radius: 30px;
+}
+.termofbox {
+  font-size: 0.7rem;
+  margin: 20px 0;
+  letter-spacing: 0.5px;
+}
+.termofbox span {
+  font-weight: bold;
+}
+.termofbox span:hover {
+  color: seagreen;
+  cursor: pointer;
+}
+.content {
+  width: 100%;
+  height: 20rem;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.contentitem {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+.contentitem h2 {
+  color: seagreen;
+  margin-bottom: 20px;
+}
+.contentitem p {
+  margin: 0 90px;
+  font-size: smaller;
+  word-wrap: break-word;
+  line-height: 1.2rem;
+}
+.howitworks {
+  width: 100%;
+  height: 21rem;
+  color: #fff;
+  background-color: #273036;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem;
+}
+.howitworks h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.svgcontainer {
+  width: 95%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+.svgcontainer img {
+  min-width: 2rem;
+  min-height: 2.5rem;
+  margin: 0 10px;
+}
+.howitworkstitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.howitworkstitle li {
+  width: 15%;
+  height: 3rem;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.5rem;
+  word-wrap: break-word;
+  word-spacing: 1px;
+  margin: auto 10px;
+}
+.startworking {
+  width: 100%;
+  min-height: 50rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(220, 241, 243);
+  color: #222;
+}
+.titleofstart {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.titleofstart p {
+  margin: 30px auto;
+  color: #64686b;
+}
+.cardsofstart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.freecard {
+  width: 18rem;
+  min-height: 35rem;
+  border-radius: 20px;
+  padding: 2rem;
+  background-color: #273036;
+  color: #fff;
+  justify-content: center;
+  transition: all 0.4s linear;
+  box-shadow: 2px 2px 10px 0px rgba(34, 34, 34, 0.637);
+}
+
+.freecard:hover {
+  box-shadow: 5px 5px 10px 0px rgba(34, 34, 34, 0.637);
+  transition: all 0.2s linear;
+}
+.procard:hover {
+  box-shadow: 5px 5px 10px 0 rgba(34, 34, 34, 0.637);
+  transition: all 0.2s linear;
+}
+.procard {
+  width: 16rem;
+  min-height: 30rem;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #273036;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s linear;
+  box-shadow: 2px 2px 10px 0px rgba(34, 34, 34, 0.637);
+}
+.freecard h1,
+.procard h1 {
+  font-size: 1.5rem;
+}
+.freecard p,
+.procard p {
+  font-size: small;
+  margin: 10px auto;
+}
+.freecard ul,
+.procard ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+.freecard li,
+.procard li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.freecard li p {
+  font-size: small;
+  margin-left: 10px;
+  color: #fff;
+  align-items: center;
+}
+.freecard li span {
+  width: 1.1rem;
+  height: 1.1rem;
+  align-items: center;
+  padding: 1px;
+  border-radius: 50%;
+  background-color: #3f474d;
+  color: #fff;
+}
+.freecardboxbtn {
+  width: 100%;
+  height: 2.8rem;
+  background-color: rgb(224, 189, 192);
+  color: #222;
+  border-radius: 30px;
+}
+.headofcard {
+  width: 100%;
+  height: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: end;
+}
+.headofcard button {
+  width: 30%;
+  border-radius: 20px;
+  margin-left: 70%;
+  font-size: 10px;
+  background-color: rgb(250, 228, 174);
+  cursor: text;
+}
+.pricecard {
+  margin: 20px 0;
+  font-size: 10px;
+}
+.pricecard span {
+  font-size: 36px;
+}
+.termofboxend {
+  width: 30%;
+  font-size: 0.7rem;
+  margin: 20px 0;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.termofboxend span {
+  font-weight: bold;
+}
+.termofboxend span:hover {
+  color: seagreen;
+  cursor: pointer;
+}

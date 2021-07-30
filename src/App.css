@@ -19,7 +19,7 @@ a {
   }
 }
 body {
-  background-color: #95a6af;
+  background-color: rgb(220, 241, 243);
 }
 main {
   width: 100%;
@@ -38,7 +38,7 @@ main {
   flex-direction: column;
   margin-top: 8rem;
   align-items: center;
-  background-color: #95a6af;
+  background-color: rgb(220, 241, 243);
 }
 button {
   min-width: 2rem;
